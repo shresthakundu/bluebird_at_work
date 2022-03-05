@@ -33,7 +33,8 @@ What is the distribution of the mother's race when atleast one maternal morbidit
 
 ![image](https://user-images.githubusercontent.com/100848496/156889446-9e1bb63b-155d-4a78-acfd-54b3f9d88829.png)
 
-What is the percentage of mixed race children with congenital abnormalities and pure race children having congenital abnormalities?
+
+What is the percentage of pure race children and mixed race children having congenital abnormalities?
 
 ![image](https://user-images.githubusercontent.com/100848496/156889473-3f1c0cc0-0823-4b8c-89f1-4498d02a15f7.png)
 
