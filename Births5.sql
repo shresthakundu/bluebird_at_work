@@ -1,3 +1,5 @@
+--How many mixed race kids (kids with parents of two different races) are born in the counties?
+
 select mother_race.County_of_Residence,mother_race.Births, mother_race.Mothers_Single_Race, father_race.Fathers_Single_Race 
 from `bigquery-public-data.sdoh_cdc_wonder_natality.county_natality_by_mother_race` as mother_race
 left join `bigquery-public-data.sdoh_cdc_wonder_natality.county_natality_by_father_race` as father_race
