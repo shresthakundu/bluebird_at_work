@@ -1,3 +1,5 @@
+--How many congenital abnormalities are checked within the age range of 23-30 years and 30-36 years?
+
 SELECT (Congenital_Abnormality_Checked_Desc) AS CACD, COUNT(Congenital_Abnormality_Checked_Desc) AS Total_Congen_Abnormalities
 FROM `bigquery-public-data.sdoh_cdc_wonder_natality.county_natality_by_congenital_abnormalities` 
 where Ave_Age_of_Mother between 23.73 and 30
