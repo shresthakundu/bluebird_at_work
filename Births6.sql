@@ -1,3 +1,5 @@
+--What is the distribution of the mother's race when atleast one maternal morbidity is checked?
+
 select mother_race.Mothers_Single_Race, COUNT(mother_race.Mothers_Single_Race) AS mother_race
 from `bigquery-public-data.sdoh_cdc_wonder_natality.county_natality_by_mother_race` as mother_race
 left join `bigquery-public-data.sdoh_cdc_wonder_natality.county_natality_by_maternal_morbidity` as maternal_morbidity
